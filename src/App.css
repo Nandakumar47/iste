@@ -22,7 +22,7 @@ body {
 }
 .firstHalf__word_div {
   position: relative;
-  top: 20%;
+  top: 30%;
 }
 
 .second__half {
@@ -37,7 +37,7 @@ a {
 }
 .first__half > .button {
   position: relative;
-  top: 150px;
+  top: 230px;
   width: 200px;
   height: 50px;
   background-color: rgb(252, 2, 84);
