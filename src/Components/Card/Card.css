@@ -1,0 +1,30 @@
+.card__div {
+  width: 250px;
+  height: 130px;
+  margin-top: 30px;
+  margin-left: 50px;
+  display: flex;
+  cursor: pointer;
+  background: #eef0f4;
+  border-radius: 5px;
+  box-shadow: 9.91px 9.91px 15px #d9dade, -9.91px -9.91px 15px #ffffff;
+}
+.card__div_text {
+  margin: 40px auto;
+}
+.card__div:hover{
+    box-shadow: 10px 10px 10px gre;
+}
+@media only screen and (max-width: 413px){
+  .card__div {
+    width: 120px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 0.5rem;
+
+  }
+  .card__div_text {
+    margin: 25px auto;
+  }
+}

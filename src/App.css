@@ -1,38 +1,129 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body {
+  overflow-x: hidden;
+}
+.first__half {
+  background-color: #0a183d;
+  height: 650px;
+  width: 100%;
+  color: #fff;
+  padding-left: 50px;
+  font-family: "Roboto", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.firstHalf__word_div > h1 {
+  font-size: 60px;
+}
+.firstHalf__word_div > h2 {
+  font-size: 25px;
+  overflow: hidden;
+
+  font-family: "Roboto", sans-serif;
+}
+.firstHalf__word_div {
+  position: relative;
+  top: 20%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.second__half {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  padding: 50px 120px;
+  height: fit-content;
+}
+a {
+  text-decoration: none;
+  color: #0a183d;
+}
+.first__half > .button {
+  position: relative;
+  top: 150px;
+  width: 200px;
+  height: 50px;
+  background-color: rgb(252, 2, 84);
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+.first__half > .button:hover {
+  background-color: #383b70;
+  color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+img {
+  width: 500px;
+  position: absolute;
+  right: 120px;
+  top: 120px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 413px) {
+  .first__half {
+    height: 450px;
+    padding-left: 10vw;
   }
-  to {
-    transform: rotate(360deg);
+  .first__half h1 {
+    font-size: 1.2rem;
+  }
+  .firstHalf__word_div h1 span {
+    font-size: 1.5rem;
+  }
+  .firstHalf__word_div h2 {
+    font-size: 0.8rem;
+  }
+  .firstHalf__word_div{
+    width: 260px;
+  }
+  .first__half > .button {
+    width: 40px;
+    height: 20px;
+    font-size: 0.5rem;
+    top: 100px;
+  }
+  img {
+    width: 200px;
+    position: absolute;
+    left: 50px;
+    top: 250px;
+  }
+  .second__half {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5vw 5vw;
+
+    height: fit-content;
+  }
+}
+@media (min-width: 414px) and (max-width: 600px){
+  .first__half {
+    height: 550px;
+    padding-left: 20px;
+  }
+  .first__half h1 {
+    font-size: 1.2rem;
+  }
+  .firstHalf__word_div h1 span {
+    font-size: 1.5rem;
+  }
+  .firstHalf__word_div h2 {
+    font-size: 0.8rem;
+  }
+  .first__half > .button {
+    width: 40px;
+    height: 20px;
+    font-size: 0.5rem;
+    top: 100px;
+  }
+  img {
+    width: 200px;
+    position: absolute;
+    left: 50px;
+    top: 250px;
+  }
+  .second__half {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 10px;
+
+    height: fit-content;
   }
 }
