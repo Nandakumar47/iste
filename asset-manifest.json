@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Nandakumar47/iste/static/css/main.6aaa480f.css",
+    "main.js": "/Nandakumar47/iste/static/js/main.98e88776.js",
+    "static/media/undraw_education.svg": "/Nandakumar47/iste/static/media/undraw_education.3b815e07c9f427229b9fe3a04faa89d3.svg",
+    "index.html": "/Nandakumar47/iste/index.html",
+    "main.6aaa480f.css.map": "/Nandakumar47/iste/static/css/main.6aaa480f.css.map",
+    "main.98e88776.js.map": "/Nandakumar47/iste/static/js/main.98e88776.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6aaa480f.css",
+    "static/js/main.98e88776.js"
+  ]
+}
