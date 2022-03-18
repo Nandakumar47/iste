@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-body {
-  overflow-x: hidden;
-}
+
 .first__half {
   background-color: #0a183d;
   height: 650px;
@@ -26,10 +24,15 @@ body {
 }
 
 .second__half {
+
+    height: fit-content;
+  padding: 50px 120px;
+  
+}
+.card__Main_div{
   display: flex;
   flex-wrap: wrap;
-  padding: 50px 120px;
-  height: fit-content;
+
 }
 a {
   text-decoration: none;
@@ -70,7 +73,7 @@ img {
   .firstHalf__word_div h2 {
     font-size: 0.8rem;
   }
-  .firstHalf__word_div{
+  .firstHalf__word_div {
     width: 260px;
   }
   .first__half > .button {
@@ -86,14 +89,23 @@ img {
     top: 250px;
   }
   .second__half {
+    align-items: center;
+    padding: 5vw 5vw;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+  }
+  .card__main_div {
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    padding: 5vw 5vw;
-
-    height: fit-content;
+    align-items: center;
+    width: 200px;
+  
+    background-color: #383b70 !important;
   }
 }
-@media (min-width: 414px) and (max-width: 600px){
+@media (min-width: 414px) and (max-width: 600px) {
   .first__half {
     height: 550px;
     padding-left: 20px;
@@ -120,10 +132,19 @@ img {
     top: 250px;
   }
   .second__half {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 30px 10px;
 
-    height: fit-content;
+    /* padding: 30px 10px;
+ 
+    height: fit-content; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .card__Main_div{
+    background-color: aquamarine !important;
+    display: flex;
+    align-items: center;
+    margin-left:auto;
   }
 }
